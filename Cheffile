@@ -1,0 +1,7 @@
+site "https://supermarket.getchef.com/api/v1"
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'openssl'
+cookbook 'postgresql'
+cookbook 'vim'
