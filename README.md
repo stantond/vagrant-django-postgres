@@ -28,16 +28,16 @@ Before first run:
 
 ### First Run
 
-	`vagrant up` to start the VM and run initial provisioning
-	`python src/manage.py createsuperuser` and create a Django superuser
-	`vagrant reload` to restart following the updates installed during provisioning
+1. `vagrant up` _to start the VM and run initial provisioning_
+2. `python src/manage.py createsuperuser` _to create a Django superuser_
+3. vagrant reload` _to restart following the updates installed during provisioning_
 
 ### Subsequent Runs
 
-	`vagrant up`
-	`vagrant ssh`
+1. `vagrant up`
+2. `vagrant ssh`
 
 ### Shell
 
-Use `python src/manage.py runserver 0.0.0.0:8000` to start the server.
-Append `--settings=config.settings.local` to use a particular settings file.
+* Use `python src/manage.py runserver 0.0.0.0:8000` to start the server.
+* Append `--settings=config.settings.local` to use a particular settings file.
