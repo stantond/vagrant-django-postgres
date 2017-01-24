@@ -1,6 +1,6 @@
 # vagrant-django-postgres
 
-Starter files for a vagrant box running Django with PostgreSQL
+Beginner-friendly starter files for a vagrant box running Django with PostgreSQL.
 
 This assumes you've seperated requirements and settings into `local, test, staging, production` as in Two Scoops, and that your Django project root is `src`. You'll have to make a couple of minor changes if not.
 
